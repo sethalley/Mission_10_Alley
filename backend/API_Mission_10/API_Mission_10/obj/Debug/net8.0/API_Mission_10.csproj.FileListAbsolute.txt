@@ -59,3 +59,4 @@ C:\Users\sethalley\source\repos\Mission_10_Alley\backend\API_Mission_10\API_Miss
 C:\Users\sethalley\source\repos\Mission_10_Alley\backend\API_Mission_10\API_Mission_10\obj\Debug\net8.0\API_Mission_10.pdb
 C:\Users\sethalley\source\repos\Mission_10_Alley\backend\API_Mission_10\API_Mission_10\obj\Debug\net8.0\API_Mission_10.genruntimeconfig.cache
 C:\Users\sethalley\source\repos\Mission_10_Alley\backend\API_Mission_10\API_Mission_10\obj\Debug\net8.0\ref\API_Mission_10.dll
+C:\Users\sethalley\source\repos\Mission_10_Alley\backend\API_Mission_10\API_Mission_10\obj\Debug\net8.0\API_Mission_10.sourcelink.json

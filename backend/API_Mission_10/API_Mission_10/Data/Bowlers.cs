@@ -23,7 +23,7 @@ namespace API_Mission_10.Data
 
         public int? BowlerZip {  get; set; }
 
-        public int? BowlerPhoneNumber { get; set; }
+        public string? BowlerPhoneNumber { get; set; }
 
         [ForeignKey("team")]
         public int? TeamID { get; set; }  

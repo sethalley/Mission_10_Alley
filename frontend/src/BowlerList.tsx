@@ -8,15 +8,17 @@ function BowlerList() {
         const fetchBowlerData = async () => {
             try {
                 const rsp = await fetch('http://localhost:5156/api/bowlers');
-                if (!rsp.ok) {
-                    throw new Error('Failed to fetch bowler data');
-                }
                 const data = await rsp.json();
-                setBowlerData(data);
+
+                // Filter data where teamName is either 'Sharks' or 'Marlins'
+                const filteredData = data.filter((bowler: { team: { teamName: string; }; }) => bowler.team.teamName === 'Sharks' || bowler.team.teamName === 'Marlins');
+
+                setBowlerData(filteredData);
             } catch (error) {
                 console.error('Error fetching bowler data:', error);
             }
         };
+
 
         fetchBowlerData();
     }, []);
