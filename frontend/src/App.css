@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  border: 10px solid red; /* Adjust border width as needed */
+}
+
+#bowlerTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#bowlerTable th,
+#bowlerTable td {
+  padding: 8px;
+  border: 1px solid #ddd; /* Border color */
+}
+
+#bowlerTable th {
+  background-color: #f2f2f2; /* Header background color */
+  color: #333; /* Header text color */
+}
+
+#bowlerTable tbody tr:nth-child(even) {
+  background-color: #f9f9f9; /* Even row background color */
+}
+
+#bowlerTable tbody tr:nth-child(odd) {
+  background-color: #ffcaca; /* Odd row background color */
+}
+
+#bowlerTable tbody tr:hover {
+  background-color: #c1ebff; /* Hover row background color */
+}
